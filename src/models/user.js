@@ -3,7 +3,7 @@ const validator = require("validator")
 const bcrpyt = require("bcryptjs")
 const jwt = require("jsonwebtoken")
 const Task = require("./task")
-require('dotenv').config({ path: '/home/juhi/Techs/node/task-manager/config/dev.env' })
+require('dotenv').config()
 
 
 const secretKey = process.env.SECRETKEY

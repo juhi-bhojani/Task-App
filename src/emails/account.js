@@ -1,5 +1,5 @@
 const sgMail = require('@sendgrid/mail')
-require('dotenv').config({ path: '/home/juhi/Techs/node/task-manager/config/dev.env' })
+require('dotenv').config()
 
 const apiKey = process.env.SENDGRIDAPIKEY
 
